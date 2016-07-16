@@ -1,0 +1,93 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+/* END GLOBAL */
+
+/* APP */
+#app {
+
+}
+/* END APP */
+
+/* NAVBAR */
+.navbar {
+  background-color: lightblue;
+  height: 85px;
+  display: flex;
+}
+
+.navbar .left {
+  background: red;
+  flex: 1;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.navbar .middle {
+  background-color: grey;
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .middle > ul {
+  background: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .middle > ul >li {
+  color: white;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.navbar .right {
+  background: yellow;
+  flex: 1;
+  display: flex;
+}
+
+.navbar .right .search {
+  background: lightblue;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .right .search input {
+  border-radius:50px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  color: black;
+  height: 35px;
+  width: 90%;
+}
+
+.navbar .right .search input:focus {
+  outline: none;
+}
+
+.navbar .right .profile {
+  background: green;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* END NAVBAR */
+
+/* MAIN-CONTENT */
+.main-content {
+
+}
+/* END MAIN-CONTENT */
+
+}
+/* END MAIN-CONTENT */
