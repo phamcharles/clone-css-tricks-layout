@@ -98,7 +98,19 @@ body {
 .main-content {
   background-color: blue;
   height: 1000px;
+  display: flex;
 }
+
+.main-content .primary {
+  background-color: lightyellow;
+  flex: 2;
+}
+
+.main-content .secondary {
+  background-color: blue;
+  flex: 1;
+}
+
 /* END MAIN-CONTENT */
 
 /* FOOTER */
