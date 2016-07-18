@@ -97,21 +97,80 @@ body {
 /* MAIN-CONTENT */
 .main-content {
   background-color: blue;
-  height: 1000px;
   display: flex;
+  justify-content: space-between;
 }
 
 .main-content .primary {
-  background-color: lightyellow;
+  background-color: red;
   flex: 2;
+}
+
+.main-content .primary .mega-header {
+  background-color: brown;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.main-content .primary .mega-header h1 {
+  background-color: red;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.main-content .primary .mega-header p {
+  font-size: 20px;
 }
 
 .main-content .secondary {
   background-color: blue;
   flex: 1;
 }
-
 /* END MAIN-CONTENT */
+
+/* MODULES */
+.module-card {
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  margin-bottom: 75px;
+  margin: 0 5% 20% 5%;
+}
+
+.module-card .module-job{
+  color: white;
+  height: 300px;
+  background-color: black;
+  padding-top: 10px;
+  margin: 0 10%;
+}
+
+.module-card .module-ads{
+  color: white;
+  height: 200px;
+  background-color: grey;
+  padding-top: 10px;
+  margin: 0 10%;
+}
+
+.module-card .module-article{
+  color: white;
+  height: 1000px;
+  background-color: purple;
+  padding-top: 10px;
+  margin: 0 10%;
+}
+.module-card .module-link{
+  color: white;
+  height: 600px;
+  background-color: blue;
+  padding-top: 10px;
+  margin: 0 10%;
+}
+/* END MODULES */
 
 /* FOOTER */
 .footer {
